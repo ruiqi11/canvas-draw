@@ -1,0 +1,111 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+ul,li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* 字体图标 */
+.icon {
+  width: 1.5em; height: 1.5em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+  transition: 0.25s;
+  margin: 8px;
+}
+
+#pannel {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+
+.switch-stationery {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.switch-stationery > #eraser.click {
+  transform: scale(1.5);
+}
+.switch-stationery > #pen.click {
+  transform: scale(1.5);
+}
+.switch-stationery > #clear.click {
+  transform: scale(1.5);
+}
+
+#clear:hover,
+#download:hover {
+  transform: scale(1.2);
+}
+
+
+.color {
+  position: fixed;
+  left: 20px;
+  top: 55px;
+}
+
+.color>.black {
+  background-color: black;
+}
+.color>.yellow {
+  background-color: yellow;
+}
+.color>.red {
+  background-color: red;
+}
+.color>.blue {
+  background-color: blue;
+}
+
+.color>li.active {
+  transform: scale(1.28);
+}
+
+.color>li {
+  width: 18px;
+  height: 18px;
+  background-color: red;
+  border-radius: 100%;
+  margin-top: 15px;
+  transition: 0.28s all;
+}
+
+
+.line {
+  width: 80px;
+  position: fixed;
+  right: 20px;
+  top: 25px;
+}
+
+.line>li.active {
+  background-color: #333;
+}
+
+.thin {
+  height: 3px;
+  background-color: #999;
+  transition: 0.3s all;
+}
+.middle {
+  height: 6px;
+  background-color: #999;
+  margin-top: 15px;
+  transition: 0.3s all;
+}
+.bold {
+  height: 10px;
+  background-color: #999;
+  margin-top: 15px;
+  transition: 0.3s all;
+}
+

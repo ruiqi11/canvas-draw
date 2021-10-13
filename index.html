@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的画板</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <canvas id="pannel"></canvas>
+
+  <div class="switch-stationery">
+    <svg id="pen" class="icon click" aria-hidden="true">
+      <use xlink:href="#icon-pen"></use>
+    </svg>
+    <svg id="eraser" class="icon" aria-hidden="true">
+      <use xlink:href="#icon-eraser"></use>
+    </svg>
+    <svg id="clear" class="icon" aria-hidden="true">
+      <use xlink:href="#icon-clear"></use>
+    </svg>
+    <svg id="download" class="icon" aria-hidden="true">
+      <use xlink:href="#icon-download"></use>
+    </svg>
+  </div>
+
+  <ul class="color">
+    <li class="black active"></li>
+    <li class="yellow"></li>
+    <li class="red"></li>
+    <li class="blue"></li>
+  </ul>
+
+  <ul class="line">
+    <li class="thin active"></li>
+    <li class="middle"></li>
+    <li class="bold"></li>
+  </ul>
+
+  <script src="https://at.alicdn.com/t/font_2527650_36sol9ep1qr.js"></script>
+  <script src="main.js"></script>
+</body>
+
+
+</html>
